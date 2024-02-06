@@ -31,3 +31,37 @@ body {
     text-wrap: balance;
   }
 }
+
+
+input {
+  width: calc(100vw/2);
+  border-radius: 12px;
+  padding: 9px;
+  margin: 5px;
+
+}
+
+select {
+  width: calc(100vw/2);
+  border-radius: 12px;
+  padding: 9px;
+  margin: 5px;
+}
+
+form > button {
+  color: white;
+  background-color: blue !important;
+  padding: 15px;
+  border-radius: 12px;
+  font-weight: 900;
+  width: 500px;
+}
+
+#checkbox {
+  margin-right: 0px;
+  width: 3%;
+}
+
+label {
+    width: 100%;
+}
